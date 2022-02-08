@@ -1,7 +1,6 @@
 
 <?php include('head.php');?>
 <?php include('header.php');?>
-<?php include('sidebar.php');?>
 
  <?php
  include('connect.php');
@@ -73,7 +72,7 @@ while($row=mysqli_fetch_array($query))
 
 
   <!-- Page wrapper  -->
-        <div class="page-wrapper">
+        <div >
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">

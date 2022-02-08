@@ -2,7 +2,6 @@
 <?php include('head.php');?>
 
 <?php include('header.php');?>
-<?php include('sidebar.php');?>
 
  <?php
  include('connect.php');
@@ -10,13 +9,8 @@
  $current_date = date('Y-m-d');
 
 ?>
-
-
-   
-
-
-  <!-- Page wrapper  -->
-        <div class="page-wrapper">
+      <!-- Page wrapper  -->
+        <div >
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
@@ -44,7 +38,7 @@
                                 <div class="input-states">
                                     <form class="form-horizontal" method="POST" action="pages/save_user.php" name="userform" enctype="multipart/form-data">
 
-                                   <input type="hidden" name="currnt_date" class="form-control" value="<?php echo $currnt_date;?>">
+                                   <input type="hidden" name="currnt_date" class="form-control" value="<?php echo $current_date;?>">
 
                                         <div class="form-group">
                                             <div class="row">

@@ -1092,7 +1092,7 @@ h6.h1 {
   line-height: 45px;
   text-align: center;
  /* background: #fff;*/
-  background: #3a4651;
+  /* background: #3a4651; */
 }
 .header .top-navbar .navbar-header .navbar-brand {
   margin-right: 0;
@@ -6934,4 +6934,16 @@ tbody tr td:last-child {
   .retina-logo {
     display: inline-block !important;
   }
+}
+
+button {
+    height: 30px !important;
+    font-size: 2rem !important;
+}
+.dt-buttons .dt-button {
+  background: #464646 none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 3px;
+  padding: 1px 5px;
 }

@@ -1,7 +1,6 @@
 <?php include('head.php');?>
 <?php include('header.php');?>
 
-<?php include('sidebar.php');?>   
 <?php //echo  $_SESSION["email"];
 include('connect.php');
 date_default_timezone_set('Asia/Kolkata');
@@ -53,7 +52,7 @@ window.location="view_role.php";
 
 ?>   
 <!-- Page wrapper  -->
-<div class="page-wrapper">
+<div >
 <!-- Bread crumb -->
 <div class="row page-titles">
 <div class="col-md-5 align-self-center">

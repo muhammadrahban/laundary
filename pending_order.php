@@ -1,6 +1,6 @@
 <?php include('head.php');?>
 <?php include('header.php');?>
-<?php include('sidebar.php');
+<?php 
 
 if(isset($_GET['id']))
 { ?>
@@ -22,7 +22,7 @@ Sure
 
 
 <!-- Page wrapper  -->
-<div class="page-wrapper">
+<div >
 <!-- Bread crumb -->
 <div class="row page-titles">
 <div class="col-md-5 align-self-center">
