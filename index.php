@@ -203,30 +203,49 @@ $row_currency = mysqli_fetch_array($result_currency);
                         <!-- <h1 class="text-center">Pages</h1> -->
                         <br>
                         <div class="row">
-                            <?php if (isset($useroles)) {
-                                if (in_array("add_order", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="add_order.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/order.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white">
-                                                            <?php
-                                                            //                           echo $num_rows 
-                                                            ?>
-                                                        </h2>
-                                                        <p class="m-b-0">Add Order</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                            
+
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_user.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/vieworder.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white">
+                                                    <?php
+                                                    //                           echo $num_rows 
+                                                    ?>
+                                                </h2>
+                                                <p class="m-b-0">View User</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="add_order.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/order.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white">
+                                                    <?php
+                                                    //                           echo $num_rows 
+                                                    ?>
+                                                </h2>
+                                                <p class="m-b-0">Add Order</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 
                             <div class="col-md-4">
                                 <div class="card  p-20" style="background-color:#86aae3">
@@ -245,29 +264,25 @@ $row_currency = mysqli_fetch_array($result_currency);
                                                 <p class="m-b-0">View Order</p>
                                             </div>
                                         </div>
+                                    </a>
                                 </div>
-                                </a>
                             </div>
-                            <?php if (isset($useroles)) {
-                                if (in_array("Add_customer", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="add_customer.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/addcus.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white"></h2>
-                                                        <p class="m-b-0">Add customer</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="add_customer.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/addcus.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">Add customer</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
+                                    </a>
+                                </div>
+                            </div>
                             <!-- </div>
                             <div class="row">-->
                             <div class="col-md-4">
@@ -286,26 +301,22 @@ $row_currency = mysqli_fetch_array($result_currency);
                                     </a>
                                 </div>
                             </div>
-                            <?php if (isset($useroles)) {
-                                if (in_array("add_services", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="add_services.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/Addser.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white"></h2>
-                                                        <p class="m-b-0">Add Services</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="add_services.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/Addser.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">Add Services</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="col-md-4">
                                 <div class="card  p-20" style="background-color:#86aae3">
                                     <a href="view_services.php">
@@ -324,26 +335,22 @@ $row_currency = mysqli_fetch_array($result_currency);
                             </div>
                             <!-- </div>
                                 <div class="row"> -->
-                            <?php if (isset($useroles)) {
-                                if (in_array("Views_Reports", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="today_delivery.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/rep.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white"></h2>
-                                                        <p class="m-b-0">Today Delivery Report</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="today_delivery.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/rep.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">Today Delivery Report</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="col-md-4">
                                 <div class="card  p-20" style="background-color:#86aae3">
                                     <a href="pending_order.php">
@@ -355,6 +362,87 @@ $row_currency = mysqli_fetch_array($result_currency);
                                             <div class="media-body media-text-right">
                                                 <h2 class="color-white"></h2>
                                                 <p class="m-b-0">pending order</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_cat.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/rep.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">View Category</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_sale.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/rep.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">View Sale</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_brand.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/viewser.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">View Brand</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_product.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/appear.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">View Product</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_stock.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/viewser.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">View Stack</p>
                                             </div>
                                         </div>
                                     </a>
@@ -378,116 +466,90 @@ $row_currency = mysqli_fetch_array($result_currency);
                             </div>
                             <!-- </div>
                                 <div class="row"> -->
-                            <?php if (isset($useroles)) {
-                                if (in_array("add_role", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="assign_role.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/assign.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white"></h2>
-                                                        <p class="m-b-0">Add Role</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="assign_role.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/assign.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">Add Role</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
-                            <?php if (isset($useroles)) {
-                                if (in_array("manage_website", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="manage_website.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/appear.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white"></h2>
-                                                        <p class="m-b-0">Website Appearance</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="assign_role.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/assign.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">Assign Role</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
-                            <?php if (isset($useroles)) {
-                                if (in_array("Activity", $useroles)) { ?>
-                                    <div class="col-md-4">
-                                        <div class="card  p-20" style="background-color:#86aae3">
-                                            <a href="activityy.php">
-                                                <div class="media widget-ten">
-                                                    <div class="media-left meida media-middle">
-                                                        <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                        <img src="icons/act.png" width="100%" height="50px" alt="">
-                                                    </div>
-                                                    <div class="media-body media-text-right">
-                                                        <h2 class="color-white"></h2>
-                                                        <p class="m-b-0">User Activity</p>
-                                                    </div>
-                                                </div>
-                                            </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="manage_website.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/appear.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">Website Appearance</p>
+                                            </div>
                                         </div>
-                                    </div>
-                            <?php }
-                            } ?>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="view_att.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/clock.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">View Attendance</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card  p-20" style="background-color:#86aae3">
+                                    <a href="activityy.php">
+                                        <div class="media widget-ten">
+                                            <div class="media-left meida media-middle">
+                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
+                                                <img src="icons/act.png" width="100%" height="50px" alt="">
+                                            </div>
+                                            <div class="media-body media-text-right">
+                                                <h2 class="color-white"></h2>
+                                                <p class="m-b-0">User Activity</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                             <!-- </div>
                             <div class="row"> -->
-                            <div class="col-md-4">
-                                <div class="card  p-20" style="background-color:#86aae3">
-                                    <a href="changepassword.php">
-                                        <div class="media widget-ten">
-                                            <div class="media-left meida media-middle">
-                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                <img src="icons/pas.png" width="100%" height="50px" alt="">
-                                            </div>
-                                            <div class="media-body media-text-right">
-                                                <h2 class="color-white"></h2>
-                                                <p class="m-b-0">Change Pasword</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card  p-20" style="background-color:#86aae3">
-                                    <a href="profile.php">
-                                        <div class="media widget-ten">
-                                            <div class="media-left meida media-middle">
-                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                <img src="icons/pro.png" width="100%" height="50px" alt="">
-                                            </div>
-                                            <div class="media-body media-text-right">
-                                                <h2 class="color-white"></h2>
-                                                <p class="m-b-0">Profile</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card  p-20" style="background-color:#86aae3">
-                                    <a href="logout.php">
-                                        <div class="media widget-ten">
-                                            <div class="media-left meida media-middle">
-                                                <!-- <span><i class="ti-comment f-s-40"></i></span> -->
-                                                <img src="icons/logout.png" width="100%" height="50px" alt="">
-                                            </div>
-                                            <div class="media-body media-text-right">
-                                                <h2 class="color-white"></h2>
-                                                <p class="m-b-0">Logout</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-4">

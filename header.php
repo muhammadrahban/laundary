@@ -12,7 +12,11 @@
     <div id="main-wrapper">
         <!-- header header  -->
         <div class="header">
+            <?php if(strpos(basename($_SERVER['PHP_SELF']), "index.php")===false){ ?>
+                    <a href="./" class="float-left px-5 py-5"><i class="fa fa-chevron-left"></i> Back</a>
+             <?php } ?>
             <nav class="navbar top-navbar navbar-light" style="display: flex;flex-direction: row;justify-content: center;align-content: center;">
+               
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.php">
                         <?php
